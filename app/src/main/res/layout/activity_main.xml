@@ -19,9 +19,9 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etProgramming"
         android:layout_width="293dp"
-        android:layout_height="56dp"
+        android:layout_height="60dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -29,9 +29,9 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="Programming"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="Programming"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.071" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etDataStructure"
         android:layout_width="292dp"
         android:layout_height="68dp"
         android:layout_marginStart="8dp"
@@ -61,9 +61,9 @@
         app:layout_constraintVertical_bias="0.185" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/etAlgorithms"
         android:layout_width="293dp"
-        android:layout_height="67dp"
+        android:layout_height="63dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -71,9 +71,9 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="Algorithm"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="Algorithm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
@@ -91,6 +91,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="onSubmitClick"
         android:text="SUBMIT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
