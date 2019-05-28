@@ -14,7 +14,7 @@ public class ResultActivity extends Activity {
     protected void onCreate(Bundle savedInstantstate) {
         super.onCreate(savedInstantstate);
         setContentView(R.layout.resultlayout);
-        tvResult = (TextView) findViewById(R.id.tvResult);
+        tvResult = (TextView) findViewById(R.id.textView2);
         showResults();
     }
 

@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
     }
 
     private boolean isValid (EditText edittext) {
-        String pattern = "1[0]{2} | [0-9]{1,2}";
+        String pattern = "1[0]{2}|[0-9]{1,2}";
         String text = edittext.getText().toString();
         if (!text.matches(pattern)) {
             edittext.setError("0~100");
