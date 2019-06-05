@@ -67,6 +67,9 @@ public class ResultActivity extends Activity {
         }
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setPositiveButton("OK",null);
+        builder.setNegativeButton("Cancel",null);
+        builder.setNeutralButton("Nothing",null);
         builder.setMessage(message);
         builder.setTitle(title);
         builder.setIcon(pic);
